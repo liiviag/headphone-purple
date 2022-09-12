@@ -12,12 +12,16 @@ body{
         "header"
         "main" 
         "footer";
-    grid-template-rows: 100px 1rf 100px;
+    grid-template-rows: 100px 1fr 100px;
 }
 
 header{
     grid-area: header;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+
 }
 
 main{
