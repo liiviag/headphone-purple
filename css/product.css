@@ -16,7 +16,10 @@
     display: grid;
     place-items: center;
 }
-
+.product__image{
+    width: 50vw;
+    height: auto;
+}
 .product__navegacion-container{
     display: flex;
 }
