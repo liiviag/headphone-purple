@@ -1,8 +1,8 @@
 .navegation{
     height: 50px;
     width: 50px;
-    background-color: #fff;
     font-size: 2rem;
+    background-color: #fff;
     color: #760450;
     display: grid;
     place-items: center;
